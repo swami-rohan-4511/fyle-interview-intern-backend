@@ -44,3 +44,4 @@ def authenticate_principal(func):
 
         return func(p, *args, **kwargs)
     return wrapper
+
